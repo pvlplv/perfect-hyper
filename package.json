@@ -1,0 +1,30 @@
+{
+  "name": "perfect-hyper",
+  "displayName": "Perfect Hyper™",
+  "description": "Perfect terminal for your hyper",
+  "author": {
+    "name": "Pavel Ivanov"
+  },
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pvlplv/perfect-hyper"
+  },
+  "keywords": [
+    "perfect terminal",
+    "perfect theme",
+    "perfect hyper",
+    "hyper",
+    "hyper theme",
+    "hyper-theme",
+    "hyper terminal",
+    "hyperterm",
+    "color-scheme",
+    "theme",
+    "terminal",
+    "background",
+    "ui",
+    "purple"
+  ]
+}
