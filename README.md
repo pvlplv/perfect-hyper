@@ -1,6 +1,6 @@
 # Perfect Hyper
 
-Perfect theme for your hyper
+Perfect theme for your [Hyper](https://hyper.is/)
 
 ## Installation 
 
