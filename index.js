@@ -1,13 +1,17 @@
-const perfectLightColor = "#998FAA"
-const perfectDarkColor = "#25252E"
+const perfectForegoundColor = "#998FAA"
+const perfectCursorColor = "rgba(153,143,170,0.8)"
+const perfectBackgroundColor = "#25252E"
+const perfectSelectionColor = "rgba(37,37,46,0.8)"
 
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
-    cursorColor: perfectLightColor,
-    cursorAccentColor: perfectDarkColor,
-    cursorBlink: true,
-    foregroundColor: perfectLightColor,
-    backgroundColor: perfectDarkColor,
-    selectionColor: perfectLightColor,
+    cursorColor: perfectCursorColor,
+    cursorAccentColor: perfectBackgroundColor,
+    cursorShape: "BEAM",
+    cursorBlink: "true",
+    foregroundColor: perfectForegoundColor,
+    backgroundColor: perfectBackgroundColor,
+    selectionColor: perfectSelectionColor,
+    showWindowControls: "left",
   })
 }
