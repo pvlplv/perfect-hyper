@@ -7,11 +7,8 @@ exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     cursorColor: perfectCursorColor,
     cursorAccentColor: perfectBackgroundColor,
-    cursorShape: "BEAM",
-    cursorBlink: "true",
     foregroundColor: perfectForegoundColor,
     backgroundColor: perfectBackgroundColor,
     selectionColor: perfectSelectionColor,
-    showWindowControls: "left",
   })
 }
