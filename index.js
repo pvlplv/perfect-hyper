@@ -3,7 +3,7 @@ const perfectForegoundColor = "#998FAA"
 const perfectBackgroundColor = "#25252E"
 const perfectSelectionColor = "rgba(37,37,46,0.8)"
 
-export function decorateConfig(config) {
+exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     cursorColor: perfectCursorColor,
     cursorAccentColor: perfectBackgroundColor,
